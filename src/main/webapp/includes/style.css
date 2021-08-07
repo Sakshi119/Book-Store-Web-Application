@@ -1,0 +1,268 @@
+* h4, h5, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+	color: black;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.navbar {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.nav-color, .nav-color-o, .neu-search {
+	background: #fff;
+}
+
+.btn-color:hover {
+	color: #8972e2;
+	background-color: #d6d9dc;
+	border-color: #f8f9fa;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.btn-color-o, .btn-color {
+	background: #ecf0f3;
+	box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+	border: white;
+	color: black;
+}
+
+.btn-color-o:hover {
+	color: #8972e2;
+	background-color: #d6d9dc;
+	border-color: #f8f9fa;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.btn-color-green {
+	background: #ecf0f3;
+	box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+	border: white;
+	color: black;
+}
+
+.btn-color-green:hover {
+	color: green;
+	background-color: #d6d9dc;
+	border-color: #f8f9fa;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.strip {
+	height: 26px;
+	background-color: #31326f;
+}
+
+.recent {
+	margin-top: 60px;
+}
+
+.recent h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.product {
+	border-style: double;
+	margin: 13px;
+	box-shadow: 1px 0px 20px #b7b1b1;
+}
+
+.mar {
+	margin: 2px;
+}
+
+.card {
+	background: #ecf0f3;
+	box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+	border: white;
+	color: black;
+}
+
+.card:hover {
+	transition: 3s ease-out;
+}
+
+.card p {
+	font-size: 18px;
+}
+
+body {
+	background-color: #1f1f1f;
+}
+
+.footer {
+	background-color: #000;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.footer h5 {
+	color: #8976e3;
+}
+
+.reg h4 {
+	padding: 12px;
+	font-size: 25px;
+	font-weight: 600;
+	color: #31326f;
+}
+
+.second-box {
+	background: #1f1f1f;
+	box-shadow: 20px 20px 60px #1a1a1a, -20px -20px 60px #242424;
+}
+
+.second-box h2 {
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+
+.second-box p, h4, h5 {
+	color: white;
+}
+
+.search-type {
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.in-neu {
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff
+		!important;
+}
+
+.search-type:focus {
+	border: #8972e2 !important;
+	color: #8972e2 !important;
+	background-color: #fff;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff
+		!important;
+	color: #8972e2 !important;
+}
+
+.in-neu:focus {
+	border: #8972e2 !important;
+	color: #8972e2 !important;
+	background-color: #fff;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff
+		!important;
+	color: #8972e2 !important;
+}
+
+.b-name {
+	color: #1b0d54;
+    font-size: 20px;
+}
+
+.icon-color {
+	background: linear-gradient(to left, #8972e2, #6c4aec);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.detail-btn {
+	background-color: white;
+	padding: 9px;
+}
+
+.detail-btn:hover {
+	color: #8972e2;
+	background-color: #d6d9dc;
+	border-color: #f8f9fa;
+	box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+/*SNACKBAR*/
+#toast {
+	min-width: 250px;
+	margin-left: -125px;
+	background: #ecf0f3;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+	font-size: 17px;
+	box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+#toast.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@
+-webkit-keyframes fadein {
+	from {bottom: 0;
+	opacity: 0;
+}
+
+to {
+	bottom: 30px;
+	opacity: 1;
+}
+
+}
+@
+keyframes fadein {
+	from {bottom: 0;
+	opacity: 0;
+}
+
+to {
+	bottom: 30px;
+	opacity: 1;
+}
+
+}
+@
+-webkit-keyframes fadeout {
+	from {bottom: 30px;
+	opacity: 1;
+}
+
+to {
+	bottom: 0;
+	opacity: 0;
+}
+
+}
+@
+keyframes fadeout {
+	from {bottom: 30px;
+	opacity: 1;
+}
+
+to {
+	bottom: 0;
+	opacity: 0;
+}
+
+}
+a {
+	color: #000000!important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #000000!important;
+	text-decoration: none;
+}
+
+
+.icon{
+	
+    font-size: 30px;
+    color: #5553e0;
+
+}
